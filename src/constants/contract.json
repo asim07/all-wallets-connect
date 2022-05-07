@@ -1,0 +1,97 @@
+{
+    "contractAddress" : "0xFC7f9B7f6bbAA056db2f5bd0AfFAce95EA4e2A61",
+    "abi" : [
+        {
+            "inputs": [
+                {
+                    "internalType": "string",
+                    "name": "_name",
+                    "type": "string"
+                },
+                {
+                    "internalType": "string",
+                    "name": "_symbol",
+                    "type": "string"
+                },
+                {
+                    "internalType": "string",
+                    "name": "_baseURI",
+                    "type": "string"
+                },
+                {
+                    "internalType": "uint256",
+                    "name": "_price",
+                    "type": "uint256"
+                },
+                {
+                    "internalType": "uint256",
+                    "name": "_supply",
+                    "type": "uint256"
+                }
+            ],
+            "name": "deploySelective",
+            "outputs": [],
+            "stateMutability": "nonpayable",
+            "type": "function"
+        },
+        {
+            "inputs": [
+                {
+                    "internalType": "string",
+                    "name": "_name",
+                    "type": "string"
+                },
+                {
+                    "internalType": "string",
+                    "name": "_symbol",
+                    "type": "string"
+                },
+                {
+                    "internalType": "string",
+                    "name": "_baseURI",
+                    "type": "string"
+                },
+                {
+                    "internalType": "uint256",
+                    "name": "_price",
+                    "type": "uint256"
+                },
+                {
+                    "internalType": "uint256",
+                    "name": "_supply",
+                    "type": "uint256"
+                }
+            ],
+            "name": "deploySequential",
+            "outputs": [],
+            "stateMutability": "nonpayable",
+            "type": "function"
+        },
+        {
+            "anonymous": false,
+            "inputs": [
+                {
+                    "indexed": false,
+                    "internalType": "contract pixelSelective",
+                    "name": "ad",
+                    "type": "address"
+                }
+            ],
+            "name": "Selectivecreated",
+            "type": "event"
+        },
+        {
+            "anonymous": false,
+            "inputs": [
+                {
+                    "indexed": false,
+                    "internalType": "contract pixelSequential",
+                    "name": "ad",
+                    "type": "address"
+                }
+            ],
+            "name": "Sequentialcreated",
+            "type": "event"
+        }
+    ]
+}
